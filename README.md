@@ -1,7 +1,19 @@
-# standalones
-Single use scripts
+#Hastebin shell function
 Forked from https://github.com/diethnis/standalones
 
+##use with file
+```
+cat file.log | haste
+haste file.log
+```
+##use with direct input
+```
+haste
+blahblahblah
+(Ctrl+D)
+```
+##changes
 changed to https to work
 
+##Install
 I added this "hastebin.sh" to my `/etc/profile.d/`. Must restart shell to see the changes.
