@@ -3,12 +3,13 @@ Forked from https://github.com/diethnis/standalones
 ## How to use
 ### with file
 ```
-cat file.log | haste
-haste file.log
+$ cat file.log | haste
+# or
+$ haste file.log
 ```
 ### with direct input
 ```
-haste
+$ haste
 blahblahblah
 (Ctrl+D)
 ```
